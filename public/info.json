@@ -1,0 +1,29 @@
+{
+    "header": {
+      "company": "BANCO PICHINCHA"
+    },
+    "user": {
+      "name": "Ariel Raura",
+      "lastEntry": "08 jul. 2021 / 12h19"
+    },
+    "title": {
+        "titles":["Mis productos", "¿Necesitas una cuenta?",
+         "Abre aquí una cuenta adiciona y organiza tu dinero.", "Operaciones"],
+        "options": ["Transferir Dinero", "Pagar Servicios", "Pagar Tarjetas", "Todas las operaciones"]
+    },
+    "infoSlider": {
+        "title": ["PRINCIPAL", "SECUNDARIA"],
+        "numberid": ["220325XXXX", "285964XXXX"],
+        "subtitle1": "Saldo disponible",
+        "subtitle2": "Ver todas mis cuentas"
+    } ,
+    "infoCuentas": {
+        "title": "¿Necesitas una cuenta?",
+        "description": "Abre aquí una cuenta adicional y organiza tu dinero."
+    },
+    "footer":{
+        "options":["Inicio", "Mis Productos", "Ayuda", "Mi perfil"]
+    }
+
+  }
+  

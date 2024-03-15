@@ -1,0 +1,67 @@
+.userContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .userBox {
+    display: flex;
+    align-items: center;
+  }
+
+.userIcon {
+        
+    background-color: #bdc6d7 ;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 600px) {
+    .userContainer {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      
+      .userBox {
+        display: flex;
+        align-items: center;
+      }
+      
+      .userIcon {
+        
+        background-color: #bdc6d7 ;
+        color: white;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        margin: 0px 30px 0px 30px;
+      }
+      
+      .userName {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+      }
+      
+      .titleUser {
+        color: #0f265c;
+      }
+      
+      .bodyContent {
+        color: #000;
+        font-size: 10px !important;
+        text-align: start;
+      }
+  }
+  

@@ -1,0 +1,291 @@
+
+@media (max-width: 600px) {
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 40px 40px 0px 0px;
+        background-color: #f4f5f9;
+        height: 800px;
+        max-height: 900px;
+      }
+      
+    
+    .contentBody{
+        padding: 15px 0px 10px 10px;
+    }
+    
+    .titleBox .title{
+        text-align: start;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+        padding: 10px 0px 0px 0px;
+        font-weight: 100 !important;
+        color: #000;
+    }
+    
+    .slider{
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+    }
+    
+    .infoContainer {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+        margin: 15px 30px 15px 20px;
+        align-items: center;
+        background-color: #fff;
+      }
+      
+      
+    
+      .col1 {
+        padding: 10px;
+        margin: 0px 15px 0px 15px;
+        border-radius: 50%; 
+        background-color: #f2f3f8; 
+        align-items: center;
+      }
+      
+    
+    .col2{
+        width: 80%;
+        text-align: start;
+        align-items: start;
+    }
+    
+    .col2 .titleInfo{
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        text-align: start;
+    }
+    
+    .col2 .textInfo{
+        font-size: 14px !important;
+        font-weight: 200 !important;
+        text-align: start;
+    }
+    .col3{
+        width: 20%;
+    }
+    
+    .customIcon {
+        width: 30px;
+        height: 30px;
+      }
+      
+      
+      .arrowIcon {
+        height: 20px !important;
+        width: 20px !important;
+      }
+    
+      .operationsContainer{
+        display: flex;
+        flex-direction: row;
+        margin: 15px 30px 15px 20px;
+      }
+    
+      .opCol1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+    
+    
+      .iconBox{
+        
+        width: 75px;
+        height: 60px;
+        background-color: #fff; 
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+      }
+    
+      .operationsIcon{
+        padding: 20px;
+        height: 20px !important;
+        width: 20px !important;
+      }
+    
+    
+    
+      .textIcon{
+        width: 100%;
+        padding-top: 10px;
+        text-align: center;
+      }
+    
+      .operationsTitle{
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #0f265c;
+        text-align: center !important; 
+      }
+    
+      .notificationDot {
+        position: relative;
+      }
+      
+      .notificationDot::after {
+        content: "";
+        position: absolute;
+        top: 8px; 
+        right: 8px; 
+        width: 10px; 
+        height: 10px;
+        border-radius: 50%; 
+        background-color: green; 
+      }
+      
+    
+  }
+  
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+    background-color: #f4f5f9;
+    height: 800px;
+    max-height: 900px;
+  }
+  
+
+.contentBody{
+    padding: 15px 0px 10px 10px;
+}
+
+.titleBox .title{
+    text-align: start;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+    padding: 10px 0px 0px 0px;
+    font-weight: 100 !important;
+    color: #000;
+}
+
+.slider{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+.infoContainer {
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    margin: 15px 30px 15px 20px;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  
+
+  .col1 {
+    padding: 10px;
+    margin: 0px 15px 0px 15px;
+    border-radius: 50%; 
+    background-color: #f2f3f8; 
+    align-items: center;
+  }
+  
+
+.col2{
+    width: 80%;
+    text-align: start;
+    align-items: start;
+}
+
+.col2 .titleInfo{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-align: start;
+    cursor:pointer;
+}
+
+.col2 .textInfo{
+    font-size: 14px !important;
+    font-weight: 200 !important;
+    text-align: start;
+}
+.col3{
+    width: 20%;
+}
+
+.customIcon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+  .arrowIcon {
+    height: 20px !important;
+    width: 20px !important;
+    cursor: pointer;
+  }
+
+  .operationsContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 30px 15px 20px;
+  }
+
+  .opCol1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+
+  .iconBox{
+    
+    width: 75px;
+    height: 60px;
+    background-color: #fff; 
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+  }
+
+  .operationsIcon{
+    padding: 20px;
+    height: 20px !important;
+    width: 20px !important;
+    cursor: pointer;
+  }
+
+
+
+  .textIcon{
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .operationsTitle{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #0f265c;
+    text-align: center !important; 
+  }
+
+  .notificationDot {
+    position: relative;
+  }
+  
+  .notificationDot::after {
+    content: "";
+    position: absolute;
+    top: 8px; 
+    right: 8px; 
+    width: 10px; 
+    height: 10px;
+    border-radius: 50%; 
+    background-color: green; 
+  }
+  
